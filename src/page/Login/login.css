@@ -1,0 +1,41 @@
+
+
+.Login-container {
+  color: aliceblue;
+  border-radius: 6px;
+  padding: 2rem;
+  text-align: center;
+  width: 450px;
+  margin: 2rem auto;
+  background-color: rgba(240, 248, 255, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 2px solid #883535;
+  box-shadow: -5px -5px 20px rgb(124, 43, 59), /* ซ้ายบนแดง */ 5px 5px 20px rgb(135, 137, 54); /* ขวาล่างเหลือง */
+}
+
+.text-blur{
+    color: #ffffff; /* ขาวเต็ม */
+    opacity: 1;
+    outline: none;
+    background-color: rgba(240, 248, 255, 0.4); /* จางโปร่งใส */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid #be4242; /* กรอบสีแดง */
+    border-radius: 10px;
+    padding: 10px;
+}
+.Login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(../../img/loop33.jpg);
+  background-position: 0%;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.block-text {
+  text-align: left;
+}
